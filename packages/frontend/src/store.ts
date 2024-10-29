@@ -499,7 +499,7 @@ export const defaultStore = markRaw(new Storage('base', {
 	},
 	sound_inmu: {
 		where: 'device',
-		default: { type: 'syuilo/ikisugi', volume: 11.4514 } as SoundStore,
+		default: { type: 'syuilo/dededon', volume: 11.4514 } as SoundStore,
 	}
 }));
 

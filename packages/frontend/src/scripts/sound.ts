@@ -59,7 +59,7 @@ export const soundsTypes = [
 	'syuilo/kick',
 	'syuilo/snare',
 	'syuilo/queue-jammed',
-	'syuilo/ikisugi',
+	'syuilo/dededon',
 	'aisha/1',
 	'aisha/2',
 	'aisha/3',
