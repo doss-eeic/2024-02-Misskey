@@ -723,13 +723,13 @@ importers:
         version: 15.1.1
       '@vitejs/plugin-vue':
         specifier: 5.1.4
-        version: 5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
+        version: 5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
       '@vue/compiler-sfc':
         specifier: 3.5.11
         version: 3.5.11
       aiscript-vscode:
         specifier: github:aiscript-dev/aiscript-vscode#v0.1.11
-        version: https://codeload.github.com/aiscript-dev/aiscript-vscode/tar.gz/e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9
+        version: git+https://git@github.com:aiscript-dev/aiscript-vscode.git#e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9
       astring:
         specifier: 1.9.0
         version: 1.9.0
@@ -818,8 +818,8 @@ importers:
         specifier: 2.13.1
         version: 2.13.1
       sass:
-        specifier: 1.79.3
-        version: 1.79.3
+        specifier: 1.81.1
+        version: 1.81.1
       shiki:
         specifier: 1.21.0
         version: 1.21.0
@@ -855,7 +855,7 @@ importers:
         version: 1.13.1(vue@3.5.11(typescript@5.6.2))
       vite:
         specifier: 5.4.8
-        version: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+        version: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       vue:
         specifier: 3.5.11
         version: 3.5.11(typescript@5.6.2)
@@ -904,7 +904,7 @@ importers:
         version: 8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)
       '@storybook/react-vite':
         specifier: 8.3.4
-        version: 8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.22.5)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))
+        version: 8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.22.5)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))
       '@storybook/test':
         specifier: 8.3.4
         version: 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))
@@ -919,7 +919,7 @@ importers:
         version: 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vue@3.5.11(typescript@5.6.2))
       '@storybook/vue3-vite':
         specifier: 8.3.4
-        version: 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
+        version: 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
       '@testing-library/vue':
         specifier: 8.1.0
         version: 8.1.0(@vue/compiler-sfc@3.5.11)(@vue/server-renderer@3.5.11(vue@3.5.11(typescript@5.6.2)))(vue@3.5.11(typescript@5.6.2))
@@ -967,7 +967,7 @@ importers:
         version: 7.17.0(eslint@9.11.0)(typescript@5.6.2)
       '@vitest/coverage-v8':
         specifier: 1.6.0
-        version: 1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0))
+        version: 1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0))
       '@vue/runtime-core':
         specifier: 3.5.11
         version: 3.5.11
@@ -1027,16 +1027,16 @@ importers:
         version: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       storybook-addon-misskey-theme:
         specifier: github:misskey-dev/storybook-addon-misskey-theme
-        version: https://codeload.github.com/misskey-dev/storybook-addon-misskey-theme/tar.gz/cf583db098365b2ccc81a82f63ca9c93bc32b640(@storybook/blocks@8.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/components@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/core-events@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/manager-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/preview-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/theming@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/types@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: git+https://git@github.com:misskey-dev/storybook-addon-misskey-theme.git#cf583db098365b2ccc81a82f63ca9c93bc32b640(@storybook/blocks@8.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/components@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/core-events@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/manager-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/preview-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/theming@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/types@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       vite-plugin-turbosnap:
         specifier: 1.0.3
         version: 1.0.3
       vitest:
         specifier: 1.6.0
-        version: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0)
+        version: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0)
       vitest-fetch-mock:
         specifier: 0.2.2
-        version: 0.2.2(encoding@0.1.13)(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0))
+        version: 0.2.2(encoding@0.1.13)(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0))
       vue-component-type-helpers:
         specifier: 2.1.6
         version: 2.1.6
@@ -1069,7 +1069,7 @@ importers:
         version: 15.1.1
       '@vitejs/plugin-vue':
         specifier: 5.1.4
-        version: 5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
+        version: 5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))
       '@vue/compiler-sfc':
         specifier: 3.5.11
         version: 3.5.11
@@ -1101,8 +1101,8 @@ importers:
         specifier: 4.22.5
         version: 4.22.5
       sass:
-        specifier: 1.79.4
-        version: 1.79.4
+        specifier: 1.81.1
+        version: 1.81.1
       shiki:
         specifier: 1.21.0
         version: 1.21.0
@@ -1123,7 +1123,7 @@ importers:
         version: 10.0.0
       vite:
         specifier: 5.4.8
-        version: 5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0)
+        version: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       vue:
         specifier: 3.5.11
         version: 3.5.11(typescript@5.6.2)
@@ -1163,7 +1163,7 @@ importers:
         version: 7.17.0(eslint@9.11.0)(typescript@5.6.2)
       '@vitest/coverage-v8':
         specifier: 1.6.0
-        version: 1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.79.4)(terser@5.33.0))
+        version: 1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.81.1)(terser@5.33.0))
       '@vue/runtime-core':
         specifier: 3.5.11
         version: 3.5.11
@@ -3497,6 +3497,88 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
 
+  '@parcel/watcher-android-arm64@2.5.0':
+    resolution: {integrity: sha512-qlX4eS28bUcQCdribHkg/herLe+0A9RyYC+mm2PXpncit8z5b3nSqGVzMNR3CmtAOgRutiZ02eIJJgP/b1iEFQ==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm64]
+    os: [android]
+
+  '@parcel/watcher-darwin-arm64@2.5.0':
+    resolution: {integrity: sha512-hyZ3TANnzGfLpRA2s/4U1kbw2ZI4qGxaRJbBH2DCSREFfubMswheh8TeiC1sGZ3z2jUf3s37P0BBlrD3sjVTUw==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@parcel/watcher-darwin-x64@2.5.0':
+    resolution: {integrity: sha512-9rhlwd78saKf18fT869/poydQK8YqlU26TMiNg7AIu7eBp9adqbJZqmdFOsbZ5cnLp5XvRo9wcFmNHgHdWaGYA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@parcel/watcher-freebsd-x64@2.5.0':
+    resolution: {integrity: sha512-syvfhZzyM8kErg3VF0xpV8dixJ+RzbUaaGaeb7uDuz0D3FK97/mZ5AJQ3XNnDsXX7KkFNtyQyFrXZzQIcN49Tw==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@parcel/watcher-linux-arm-glibc@2.5.0':
+    resolution: {integrity: sha512-0VQY1K35DQET3dVYWpOaPFecqOT9dbuCfzjxoQyif1Wc574t3kOSkKevULddcR9znz1TcklCE7Ht6NIxjvTqLA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@parcel/watcher-linux-arm-musl@2.5.0':
+    resolution: {integrity: sha512-6uHywSIzz8+vi2lAzFeltnYbdHsDm3iIB57d4g5oaB9vKwjb6N6dRIgZMujw4nm5r6v9/BQH0noq6DzHrqr2pA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm]
+    os: [linux]
+
+  '@parcel/watcher-linux-arm64-glibc@2.5.0':
+    resolution: {integrity: sha512-BfNjXwZKxBy4WibDb/LDCriWSKLz+jJRL3cM/DllnHH5QUyoiUNEp3GmL80ZqxeumoADfCCP19+qiYiC8gUBjA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@parcel/watcher-linux-arm64-musl@2.5.0':
+    resolution: {integrity: sha512-S1qARKOphxfiBEkwLUbHjCY9BWPdWnW9j7f7Hb2jPplu8UZ3nes7zpPOW9bkLbHRvWM0WDTsjdOTUgW0xLBN1Q==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@parcel/watcher-linux-x64-glibc@2.5.0':
+    resolution: {integrity: sha512-d9AOkusyXARkFD66S6zlGXyzx5RvY+chTP9Jp0ypSTC9d4lzyRs9ovGf/80VCxjKddcUvnsGwCHWuF2EoPgWjw==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@parcel/watcher-linux-x64-musl@2.5.0':
+    resolution: {integrity: sha512-iqOC+GoTDoFyk/VYSFHwjHhYrk8bljW6zOhPuhi5t9ulqiYq1togGJB5e3PwYVFFfeVgc6pbz3JdQyDoBszVaA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [x64]
+    os: [linux]
+
+  '@parcel/watcher-win32-arm64@2.5.0':
+    resolution: {integrity: sha512-twtft1d+JRNkM5YbmexfcH/N4znDtjgysFaV9zvZmmJezQsKpkfLYJ+JFV3uygugK6AtIM2oADPkB2AdhBrNig==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@parcel/watcher-win32-ia32@2.5.0':
+    resolution: {integrity: sha512-+rgpsNRKwo8A53elqbbHXdOMtY/tAtTzManTWShB5Kk54N8Q9mzNWV7tV+IbGueCbcj826MfWGU3mprWtuf1TA==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@parcel/watcher-win32-x64@2.5.0':
+    resolution: {integrity: sha512-lPrxve92zEHdgeff3aiu4gDOIt4u7sJYha6wbdEZDCDUhtjTsOMiaJzG5lMY4GkWH8p0fMmO2Ppq5G5XXG+DQw==}
+    engines: {node: '>= 10.0.0'}
+    cpu: [x64]
+    os: [win32]
+
+  '@parcel/watcher@2.5.0':
+    resolution: {integrity: sha512-i0GV1yJnm2n3Yq1qw6QrUrd/LI9bE8WEBOTtOkpCXHHdyN3TAGgqAK/DAT05z4fq2x04cARXt2pDmjWjL92iTQ==}
+    engines: {node: '>= 10.0.0'}
+
   '@peculiar/asn1-android@2.3.10':
     resolution: {integrity: sha512-z9Rx9cFJv7UUablZISe7uksNbFJCq13hO0yEAOoIpAymALTLlvUOSLnGiQS7okPaM5dP42oTLhezH6XDXRXjGw==}
 
@@ -5232,6 +5314,7 @@ packages:
 
   acorn-import-assertions@1.9.0:
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
 
@@ -5287,8 +5370,8 @@ packages:
     resolution: {integrity: sha512-gOsf2YwSlleG6IjRYG2A7k0HmBMEo6qVNk9Bp/EaLgAJT5ngH6PXbqa4ItvnEwCm/velL5jAnQgsHsWnjhGmvw==}
     engines: {node: '>=18'}
 
-  aiscript-vscode@https://codeload.github.com/aiscript-dev/aiscript-vscode/tar.gz/e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9:
-    resolution: {tarball: https://codeload.github.com/aiscript-dev/aiscript-vscode/tar.gz/e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9}
+  aiscript-vscode@git+https://git@github.com:aiscript-dev/aiscript-vscode.git#e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9:
+    resolution: {commit: e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9, repo: git@github.com:aiscript-dev/aiscript-vscode.git, type: git}
     version: 0.1.11
     engines: {vscode: ^1.83.0}
 
@@ -6384,6 +6467,11 @@ packages:
   destroy@1.2.0:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
+
+  detect-libc@1.0.3:
+    resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
+    engines: {node: '>=0.10'}
+    hasBin: true
 
   detect-libc@2.0.3:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
@@ -7606,8 +7694,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  immutable@4.2.2:
-    resolution: {integrity: sha512-fTMKDwtbvO5tldky9QZ2fMX7slR0mYpY5nbnFWYp0fOzDhHqhgIw9KoYgxLWsoNTS9ZHGauHj18DTyEw6BK3Og==}
+  immutable@5.0.3:
+    resolution: {integrity: sha512-P8IdPQHq3lA1xVeBRi5VPqUm5HDgKnx0Ru51wZz5mjxHr5n3RWhjIpOFU7ybkUxfB+5IToy+OLaHYDBIWsv+uw==}
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -8944,6 +9032,9 @@ packages:
   node-addon-api@3.2.1:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
 
+  node-addon-api@7.1.1:
+    resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
+
   node-bitmap@0.0.1:
     resolution: {integrity: sha512-Jx5lPaaLdIaOsj2mVLWMWulXF6GQVdyLvNSxmiYCvZ8Ma2hfKX0POoR2kgKOqz+oFsRreq0yYZjQ2wjE9VNzCA==}
     engines: {node: '>=v0.6.5'}
@@ -10238,13 +10329,8 @@ packages:
   sanitize-html@2.13.1:
     resolution: {integrity: sha512-ZXtKq89oue4RP7abL9wp/9URJcqQNABB5GGJ2acW1sdO8JTVl92f4ygD7Yc9Ze09VAZhnt2zegeU0tbNsdcLYg==}
 
-  sass@1.79.3:
-    resolution: {integrity: sha512-m7dZxh0W9EZ3cw50Me5GOuYm/tVAJAn91SUnohLRo9cXBixGUOdvmryN+dXpwR831bhoY3Zv7rEFt85PUwTmzA==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-
-  sass@1.79.4:
-    resolution: {integrity: sha512-K0QDSNPXgyqO4GZq2HO5Q70TLxTH6cIT59RdoCHMivrC8rqzaTw5ab9prjz9KUN1El4FLXrBXJhik61JR4HcGg==}
+  sass@1.81.1:
+    resolution: {integrity: sha512-VNLgf4FC5yFyKwAumAAwwNh8X4SevlVREq3Y8aDZIkm0lI/zO1feycMXQ4hn+eB6FVhRbleSQ1Yb/q8juSldTA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -10511,10 +10597,6 @@ packages:
   sortablejs@1.14.0:
     resolution: {integrity: sha512-pBXvQCs5/33fdN1/39pPL0NZF20LeRbLQ5jtnheIPN9JQAaufGjKdWduZn4U7wCtVuzKhmRkI0DFYHYRbB2H1w==}
 
-  source-map-js@1.2.0:
-    resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
-    engines: {node: '>=0.10.0'}
-
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -10601,8 +10683,8 @@ packages:
     resolution: {integrity: sha512-iCGQj+0l0HOdZ2AEeBADlsRC+vsnDsZsbdSiH1yNSjcfKM7fdpCMfqAL/dwF5BLiw/XhRft/Wax6zQbhq2BcjQ==}
     engines: {node: '>= 0.4'}
 
-  storybook-addon-misskey-theme@https://codeload.github.com/misskey-dev/storybook-addon-misskey-theme/tar.gz/cf583db098365b2ccc81a82f63ca9c93bc32b640:
-    resolution: {tarball: https://codeload.github.com/misskey-dev/storybook-addon-misskey-theme/tar.gz/cf583db098365b2ccc81a82f63ca9c93bc32b640}
+  storybook-addon-misskey-theme@git+https://git@github.com:misskey-dev/storybook-addon-misskey-theme.git#cf583db098365b2ccc81a82f63ca9c93bc32b640:
+    resolution: {commit: cf583db098365b2ccc81a82f63ca9c93bc32b640, repo: git@github.com:misskey-dev/storybook-addon-misskey-theme.git, type: git}
     version: 0.0.0
     peerDependencies:
       '@storybook/blocks': ^7.0.0-rc.4
@@ -11460,6 +11542,9 @@ packages:
 
   vue-component-type-helpers@2.0.16:
     resolution: {integrity: sha512-qisL/iAfdO++7w+SsfYQJVPj6QKvxp4i1MMxvsNO41z/8zu3KuAw9LkhKUfP/kcOWGDxESp+pQObWppXusejCA==}
+
+  vue-component-type-helpers@2.1.10:
+    resolution: {integrity: sha512-lfgdSLQKrUmADiSV6PbBvYgQ33KF3Ztv6gP85MfGaGaSGMTXORVaHT1EHfsqCgzRNBstPKYDmvAV9Do5CmJ07A==}
 
   vue-component-type-helpers@2.1.6:
     resolution: {integrity: sha512-ng11B8B/ZADUMMOsRbqv0arc442q7lifSubD0v8oDXIFoMg/mXwAPUunrroIDkY+mcD0dHKccdaznSVp8EoX3w==}
@@ -13595,13 +13680,13 @@ snapshots:
       '@types/yargs': 17.0.19
       chalk: 4.1.2
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.3.0(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))':
     dependencies:
       glob: 7.2.3
       glob-promise: 4.2.2(glob@7.2.3)
       magic-string: 0.27.0
       react-docgen-typescript: 2.2.2(typescript@5.6.2)
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
     optionalDependencies:
       typescript: 5.6.2
 
@@ -14152,6 +14237,67 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.25.1(@opentelemetry/api@1.9.0)
+
+  '@parcel/watcher-android-arm64@2.5.0':
+    optional: true
+
+  '@parcel/watcher-darwin-arm64@2.5.0':
+    optional: true
+
+  '@parcel/watcher-darwin-x64@2.5.0':
+    optional: true
+
+  '@parcel/watcher-freebsd-x64@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-arm-glibc@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-arm-musl@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-arm64-glibc@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-arm64-musl@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-x64-glibc@2.5.0':
+    optional: true
+
+  '@parcel/watcher-linux-x64-musl@2.5.0':
+    optional: true
+
+  '@parcel/watcher-win32-arm64@2.5.0':
+    optional: true
+
+  '@parcel/watcher-win32-ia32@2.5.0':
+    optional: true
+
+  '@parcel/watcher-win32-x64@2.5.0':
+    optional: true
+
+  '@parcel/watcher@2.5.0':
+    dependencies:
+      detect-libc: 1.0.3
+      is-glob: 4.0.3
+      micromatch: 4.0.8
+      node-addon-api: 7.1.1
+    optionalDependencies:
+      '@parcel/watcher-android-arm64': 2.5.0
+      '@parcel/watcher-darwin-arm64': 2.5.0
+      '@parcel/watcher-darwin-x64': 2.5.0
+      '@parcel/watcher-freebsd-x64': 2.5.0
+      '@parcel/watcher-linux-arm-glibc': 2.5.0
+      '@parcel/watcher-linux-arm-musl': 2.5.0
+      '@parcel/watcher-linux-arm64-glibc': 2.5.0
+      '@parcel/watcher-linux-arm64-musl': 2.5.0
+      '@parcel/watcher-linux-x64-glibc': 2.5.0
+      '@parcel/watcher-linux-x64-musl': 2.5.0
+      '@parcel/watcher-win32-arm64': 2.5.0
+      '@parcel/watcher-win32-ia32': 2.5.0
+      '@parcel/watcher-win32-x64': 2.5.0
+    optional: true
 
   '@peculiar/asn1-android@2.3.10':
     dependencies:
@@ -14997,7 +15143,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/builder-vite@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))':
+  '@storybook/builder-vite@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))':
     dependencies:
       '@storybook/csf-plugin': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))
       '@types/find-cache-dir': 3.2.1
@@ -15009,7 +15155,7 @@ snapshots:
       magic-string: 0.30.11
       storybook: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       ts-dedent: 2.2.0
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
     optionalDependencies:
       typescript: 5.6.2
     transitivePeerDependencies:
@@ -15080,11 +15226,11 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
 
-  '@storybook/react-vite@8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.22.5)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))':
+  '@storybook/react-vite@8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.22.5)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.3.0(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))
       '@rollup/pluginutils': 5.1.2(rollup@4.22.5)
-      '@storybook/builder-vite': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))
+      '@storybook/builder-vite': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))
       '@storybook/react': 8.3.4(@storybook/test@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)
       find-up: 5.0.0
       magic-string: 0.30.11
@@ -15094,7 +15240,7 @@ snapshots:
       resolve: 1.22.8
       storybook: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       tsconfig-paths: 4.2.0
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
     transitivePeerDependencies:
       - '@preact/preset-vite'
       - '@storybook/test'
@@ -15161,15 +15307,15 @@ snapshots:
     dependencies:
       storybook: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
 
-  '@storybook/vue3-vite@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))':
+  '@storybook/vue3-vite@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))':
     dependencies:
-      '@storybook/builder-vite': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))
+      '@storybook/builder-vite': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(typescript@5.6.2)(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))
       '@storybook/vue3': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))(vue@3.5.11(typescript@5.6.2))
       find-package-json: 1.2.0
       magic-string: 0.30.11
       storybook: 8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)
       typescript: 5.6.2
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       vue-component-meta: 2.0.16(typescript@5.6.2)
       vue-docgen-api: 4.75.1(vue@3.5.11(typescript@5.6.2))
     transitivePeerDependencies:
@@ -15190,7 +15336,7 @@ snapshots:
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       vue: 3.5.11(typescript@5.6.2)
-      vue-component-type-helpers: 2.1.6
+      vue-component-type-helpers: 2.1.10
 
   '@swc/cli@0.3.12(@swc/core@1.6.6)(chokidar@3.5.3)':
     dependencies:
@@ -16001,7 +16147,7 @@ snapshots:
       '@typescript-eslint/types': 7.17.0
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.5.4)
       '@typescript-eslint/visitor-keys': 7.17.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
     optionalDependencies:
       typescript: 5.5.4
@@ -16014,7 +16160,7 @@ snapshots:
       '@typescript-eslint/types': 7.17.0
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.6.2)
       '@typescript-eslint/visitor-keys': 7.17.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
     optionalDependencies:
       typescript: 5.6.2
@@ -16027,7 +16173,7 @@ snapshots:
       '@typescript-eslint/types': 7.17.0
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.6.2)
       '@typescript-eslint/visitor-keys': 7.17.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.8.0
     optionalDependencies:
       typescript: 5.6.2
@@ -16048,7 +16194,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.1.0(typescript@5.3.3)
       '@typescript-eslint/utils': 7.1.0(eslint@9.11.0)(typescript@5.3.3)
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
       ts-api-utils: 1.0.1(typescript@5.3.3)
     optionalDependencies:
@@ -16060,7 +16206,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.5.4)
       '@typescript-eslint/utils': 7.17.0(eslint@9.11.0)(typescript@5.5.4)
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
       ts-api-utils: 1.3.0(typescript@5.5.4)
     optionalDependencies:
@@ -16072,7 +16218,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.6.2)
       '@typescript-eslint/utils': 7.17.0(eslint@9.11.0)(typescript@5.6.2)
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
       ts-api-utils: 1.3.0(typescript@5.6.2)
     optionalDependencies:
@@ -16084,7 +16230,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.17.0(typescript@5.6.2)
       '@typescript-eslint/utils': 7.17.0(eslint@9.8.0)(typescript@5.6.2)
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.8.0
       ts-api-utils: 1.3.0(typescript@5.6.2)
     optionalDependencies:
@@ -16100,7 +16246,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.1.0
       '@typescript-eslint/visitor-keys': 7.1.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
@@ -16115,7 +16261,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.17.0
       '@typescript-eslint/visitor-keys': 7.17.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
@@ -16130,7 +16276,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 7.17.0
       '@typescript-eslint/visitor-keys': 7.17.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.4
@@ -16200,21 +16346,16 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))':
+  '@vitejs/plugin-vue@5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))':
     dependencies:
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       vue: 3.5.11(typescript@5.6.2)
 
-  '@vitejs/plugin-vue@5.1.4(vite@5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0))(vue@3.5.11(typescript@5.6.2))':
-    dependencies:
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0)
-      vue: 3.5.11(typescript@5.6.2)
-
-  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0))':
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@bcoe/v8-coverage': 0.2.3
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-lib-source-maps: 5.0.4
@@ -16225,15 +16366,15 @@ snapshots:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0)
+      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.79.4)(terser@5.33.0))':
+  '@vitest/coverage-v8@1.6.0(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.81.1)(terser@5.33.0))':
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@bcoe/v8-coverage': 0.2.3
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       istanbul-lib-coverage: 3.2.2
       istanbul-lib-report: 3.0.1
       istanbul-lib-source-maps: 5.0.4
@@ -16244,7 +16385,7 @@ snapshots:
       std-env: 3.7.0
       strip-literal: 2.1.0
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.79.4)(terser@5.33.0)
+      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.81.1)(terser@5.33.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -16383,7 +16524,7 @@ snapshots:
       estree-walker: 2.0.2
       magic-string: 0.30.11
       postcss: 8.4.47
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   '@vue/compiler-sfc@3.5.11':
     dependencies:
@@ -16554,7 +16695,7 @@ snapshots:
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -16568,7 +16709,7 @@ snapshots:
       clean-stack: 5.2.0
       indent-string: 5.0.0
 
-  aiscript-vscode@https://codeload.github.com/aiscript-dev/aiscript-vscode/tar.gz/e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9:
+  aiscript-vscode@git+https://git@github.com:aiscript-dev/aiscript-vscode.git#e1e1b27f2f72cd28a473e004b6da0d8fc0bd40d9:
     dependencies:
       '@aiscript-dev/aiscript-languageserver': https://github.com/aiscript-dev/aiscript-languageserver/releases/download/0.1.6/aiscript-dev-aiscript-languageserver-0.1.6.tgz
       vscode-languageclient: 9.0.1
@@ -17898,6 +18039,9 @@ snapshots:
   dequal@2.0.3: {}
 
   destroy@1.2.0: {}
+
+  detect-libc@1.0.3:
+    optional: true
 
   detect-libc@2.0.3: {}
 
@@ -19539,7 +19683,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -19578,7 +19722,7 @@ snapshots:
   https-proxy-agent@5.0.1:
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
     optional: true
@@ -19586,14 +19730,14 @@ snapshots:
   https-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -19631,7 +19775,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  immutable@4.2.2: {}
+  immutable@5.0.3: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -19968,7 +20112,7 @@ snapshots:
   istanbul-lib-source-maps@5.0.4:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       istanbul-lib-coverage: 3.2.2
     transitivePeerDependencies:
       - supports-color
@@ -20715,7 +20859,7 @@ snapshots:
     dependencies:
       '@babel/parser': 7.24.7
       '@babel/types': 7.24.7
-      source-map-js: 1.2.0
+      source-map-js: 1.2.1
 
   mailcheck@1.1.1: {}
 
@@ -21417,6 +21561,9 @@ snapshots:
   node-abort-controller@3.1.1: {}
 
   node-addon-api@3.2.1:
+    optional: true
+
+  node-addon-api@7.1.1:
     optional: true
 
   node-bitmap@0.0.1: {}
@@ -22799,17 +22946,13 @@ snapshots:
       parse-srcset: 1.0.2
       postcss: 8.4.47
 
-  sass@1.79.3:
+  sass@1.81.1:
     dependencies:
       chokidar: 3.5.3
-      immutable: 4.2.2
-      source-map-js: 1.2.0
-
-  sass@1.79.4:
-    dependencies:
-      chokidar: 3.5.3
-      immutable: 4.2.2
+      immutable: 5.0.3
       source-map-js: 1.2.1
+    optionalDependencies:
+      '@parcel/watcher': 2.5.0
 
   sax@1.2.4: {}
 
@@ -22975,7 +23118,7 @@ snapshots:
     dependencies:
       '@hapi/hoek': 11.0.4
       '@hapi/wreck': 18.0.1
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       joi: 17.11.0
     transitivePeerDependencies:
       - supports-color
@@ -23099,8 +23242,6 @@ snapshots:
 
   sortablejs@1.14.0: {}
 
-  source-map-js@1.2.0: {}
-
   source-map-js@1.2.1: {}
 
   source-map-support@0.5.13:
@@ -23200,7 +23341,7 @@ snapshots:
     dependencies:
       internal-slot: 1.0.5
 
-  storybook-addon-misskey-theme@https://codeload.github.com/misskey-dev/storybook-addon-misskey-theme/tar.gz/cf583db098365b2ccc81a82f63ca9c93bc32b640(@storybook/blocks@8.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/components@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/core-events@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/manager-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/preview-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/theming@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/types@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  storybook-addon-misskey-theme@git+https://git@github.com:misskey-dev/storybook-addon-misskey-theme.git#cf583db098365b2ccc81a82f63ca9c93bc32b640(@storybook/blocks@8.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/components@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/core-events@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/manager-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/preview-api@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/theming@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(@storybook/types@8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@storybook/blocks': 8.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))
       '@storybook/components': 8.3.4(storybook@8.3.4(bufferutil@4.0.8)(utf-8-validate@6.0.4))
@@ -23932,31 +24073,13 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite-node@1.6.0(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0):
+  vite-node@1.6.0(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       pathe: 1.1.2
       picocolors: 1.0.1
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
-    transitivePeerDependencies:
-      - '@types/node'
-      - less
-      - lightningcss
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
-      - supports-color
-      - terser
-
-  vite-node@1.6.0(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0):
-    dependencies:
-      cac: 6.7.14
-      debug: 4.3.5(supports-color@5.5.0)
-      pathe: 1.1.2
-      picocolors: 1.0.1
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -23970,7 +24093,7 @@ snapshots:
 
   vite-plugin-turbosnap@1.0.3: {}
 
-  vite@5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0):
+  vite@5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -23978,28 +24101,17 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.14.12
       fsevents: 2.3.3
-      sass: 1.79.3
+      sass: 1.81.1
       terser: 5.33.0
 
-  vite@5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0):
-    dependencies:
-      esbuild: 0.21.5
-      postcss: 8.4.47
-      rollup: 4.22.5
-    optionalDependencies:
-      '@types/node': 20.14.12
-      fsevents: 2.3.3
-      sass: 1.79.4
-      terser: 5.33.0
-
-  vitest-fetch-mock@0.2.2(encoding@0.1.13)(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0)):
+  vitest-fetch-mock@0.2.2(encoding@0.1.13)(vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0)):
     dependencies:
       cross-fetch: 3.1.6(encoding@0.1.13)
-      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0)
+      vitest: 1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0)
     transitivePeerDependencies:
       - encoding
 
-  vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.79.3)(terser@5.33.0):
+  vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1(bufferutil@4.0.8)(utf-8-validate@6.0.4))(sass@1.81.1)(terser@5.33.0):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -24018,8 +24130,8 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.6.0
       tinypool: 0.8.4
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
-      vite-node: 1.6.0(@types/node@20.14.12)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
+      vite-node: 1.6.0(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@types/node': 20.14.12
@@ -24035,7 +24147,7 @@ snapshots:
       - supports-color
       - terser
 
-  vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.79.4)(terser@5.33.0):
+  vitest@1.6.0(@types/node@20.14.12)(happy-dom@10.0.3)(jsdom@24.1.1)(sass@1.81.1)(terser@5.33.0):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -24054,8 +24166,8 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.6.0
       tinypool: 0.8.4
-      vite: 5.4.8(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0)
-      vite-node: 1.6.0(@types/node@20.14.12)(sass@1.79.4)(terser@5.33.0)
+      vite: 5.4.8(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
+      vite-node: 1.6.0(@types/node@20.14.12)(sass@1.81.1)(terser@5.33.0)
       why-is-node-running: 2.2.2
     optionalDependencies:
       '@types/node': 20.14.12
@@ -24109,6 +24221,8 @@ snapshots:
 
   vue-component-type-helpers@2.0.16: {}
 
+  vue-component-type-helpers@2.1.10: {}
+
   vue-component-type-helpers@2.1.6: {}
 
   vue-demi@0.14.7(vue@3.5.11(typescript@5.6.2)):
@@ -24132,7 +24246,7 @@ snapshots:
 
   vue-eslint-parser@9.4.3(eslint@9.11.0):
     dependencies:
-      debug: 4.3.5(supports-color@5.5.0)
+      debug: 4.3.5(supports-color@8.1.1)
       eslint: 9.11.0
       eslint-scope: 7.2.2
       eslint-visitor-keys: 3.4.3
